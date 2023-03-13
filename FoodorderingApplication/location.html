@@ -1,0 +1,26 @@
+<html>
+    <body style="background-color:thistle;">
+        <h1><b>Location</b></h1>
+        <button onclick="getLocation()"><div style="background-color:wheat">Map for Hotel</div></button>
+        <p id="loc"></p>
+        <img src="loc1.jpg" alt="no img"  height="300px" width="full">
+    </body>
+    <script>
+        var x=document.getElementById("loc");
+        function getLocation(){
+        navigator.geolocation.getCurrentPosition(showPosition);}
+        function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+  const mapLink = `https://www.google.com/maps?q=${position.coords.latitude},${position.coords.longitude}`;
+
+
+window.open(mapLink);
+
+}
+
+
+
+    </script>
+   
+</html>

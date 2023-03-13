@@ -1,0 +1,174 @@
+#a{
+    width:full;
+    height: 160px;
+    text-align: center;
+}
+
+.ad{
+  display:absolute;right: 30px;
+}
+/* .c{
+    border: dotted 2px gray;
+    display: flex;
+     flex-direction:row;
+     width: 20px;
+     justify-content:space-around;
+     background-color:red;
+     position :sticky;
+     top:0;
+}
+.c1{
+    border-color: firebrick;
+    width: 20px;
+    flex-shrink:1;
+    background-color:gray ;
+  
+
+}
+.c2{
+    border: solid 2px seagreen;
+    border-width: 160px;
+   
+    flex-shrink: 0 ;
+    background-color:gray;
+
+}.c3{
+    border: solid 2px cadetblue;
+    border-width: 160px;
+   
+    flex-shrink: 0 ;
+    background-color:gray;
+   
+}
+.c4{
+    border: solid 2px cadetblue;
+    width: 160px;
+    flex-shrink: 1 ;
+    flex-wrap:wrap;
+    background-color:gray;
+   
+} */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    right:40% ;
+     top:20%;    
+    width: 50%; /* Full width */
+    height: 80%; /* Full height */
+/* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 70%;
+height: 70%;}
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  img.avatar {
+    position: absolute;
+    width: 20%;
+    border-radius: 100%;
+    right: 200px;
+    bottom: 320;
+  }
+  .container {
+    padding: 10px;
+  }
+
+  .slideshow-container {
+    max-width: 1500px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Next & previous buttons */
+
+  
+  /* Position the "next button" to the right */
+ 
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #938cb1;
+    font-size: 15px;
+    padding: 20px 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left:0;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 10s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+@media only screen and (min-width:700){
+  body{}
+}
