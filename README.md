@@ -6,10 +6,10 @@
  Using HTML5,CSS,JAVASCRIPT,BOOTSTRAP,PHP,DATABASE(SQL xampp).
 
 
-First create the webpage  in that page  is consists of (about,contact,location,login page).
------Login page ----- 
-user id:rajesh.
-password:123.
+First create the webpage  in that page  is consists of (about,contact,location,login page).                                                  
+     -----Login page ----- 
+   User id:rajesh.
+   Password:123.
 
 Create the database(Sql) of the food items with price .
 
